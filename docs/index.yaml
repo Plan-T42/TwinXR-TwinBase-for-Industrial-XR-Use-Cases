@@ -1,0 +1,8 @@
+baseurl: https://twinbase.github.io/twinbase
+owner:
+  dt-id: http://d-t.fi/juuso
+repo_url: https://github.com/twinbase/twinbase
+new_twin_url: https://github.com/twinbase/twinbase/new/main?filename=docs/edit_this_with_backspace/index.yaml&value=Paste%20a%20DT%20document%20template%20here
+twins:
+- url: https://twinbase.github.io/twinbase/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32
+  name: Example twin

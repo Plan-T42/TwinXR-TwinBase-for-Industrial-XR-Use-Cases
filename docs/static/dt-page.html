@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title id="title">Twinbase</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../static/jsonview.bundle.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    div.max600 {
+      max-width: 600px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<header>
+    <a id="twinbase" href="" class="logo">Twinbase</a>
+    <a id="repo" href="" class="button">Repository</a>
+    <a href="http://twinbase.org" class="button">Docs</a>
+</header>
+
+<div class="container">
+<div class="row">
+  
+  <div class="col-md-1 col-lg-3"></div>
+  <div class="max600">
+
+    <h1>DT document for <span id="name"></span></h1>
+    
+    <p>DT identifier: <a id="dt-id" href=""></a></p>
+    
+    <p>You can download the raw <a href="index.json">JSON</a> and <a href="index.yaml">YAML</a> files.</p>
+
+    <p>Edit the document <a id="edit" href="">here</a>.</p>
+
+    <p>Twinbase page <a id="baseurl" href="">here</a>.</p>
+    
+    <p>Browse the DT document below by clicking the arrows.</p> 
+
+    <div class="root"></div>
+
+  </div>
+
+</div>
+</div>
+
+
+  <script>
+    fetch('index.json')
+    .then(response => response.json())
+    .then(data => {
+	  document.getElementById('title').innerHTML = 'Twinbase - ' + data.name;
+	  document.getElementById('name').innerHTML = data.name;
+	  document.getElementById('dt-id').href = data['dt-id'];
+	  document.getElementById('dt-id').innerHTML = data['dt-id'];
+    document.getElementById('edit').href = data.edit;
+    document.getElementById('twinbase').href = data.baseurl;
+    document.getElementById('baseurl').href = data.baseurl;
+    })
+  </script>
+
+  <script>
+    fetch("../index.json")
+      .then(response => response.json())
+      .then(basedoc => {
+        document.getElementById('repo').href = basedoc.repo_url;
+    });
+  </script>
+
+  <script type="text/javascript" src="../static/jsonview.bundle.js"></script>
+  
+  <script type="text/javascript">
+    fetch('index.json')
+    .then((res)=> {
+      return res.text();
+    })
+    .then((data) => {
+      const tree = JsonView.createTree(data);
+      JsonView.render(tree, document.querySelector('.root'));
+      // JsonView.expandChildren(tree);
+	  JsonView.showNodeChildren(tree);
+    })
+    .catch((err) => {
+      console.log(err);
+    })
+  </script>
+
+</body>
+</html>
