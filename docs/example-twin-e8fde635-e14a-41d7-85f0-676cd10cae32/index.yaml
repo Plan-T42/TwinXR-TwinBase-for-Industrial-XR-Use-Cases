@@ -1,7 +1,0 @@
-dt-id: https://dtid.org/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32
-hosting-iri: https://Plan-T42.github.io/TwinBase_HoloCrane/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32
-name: Example twin
-description: This is an example twin to show what a DT document can look like. You
-  can safely remove the folder that contains this document.
-baseurl: https://Plan-T42.github.io/TwinBase_HoloCrane
-edit: https://github.com/Plan-T42/TwinBase_HoloCrane/edit/main/docs/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32/index.yaml
