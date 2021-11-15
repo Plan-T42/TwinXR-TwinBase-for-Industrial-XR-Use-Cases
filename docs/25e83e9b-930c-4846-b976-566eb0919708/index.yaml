@@ -1,7 +1,7 @@
 version: '1.0'
 privacy: public
-dt-id: autoassign|https://dtid.org
-hosting-iri: autoassign
+dt-id: https://dtid.org/25e83e9b-930c-4846-b976-566eb0919708
+hosting-iri: https://Plan-T42.github.io/TwinBase_HoloCrane/25e83e9b-930c-4846-b976-566eb0919708
 name: Ilmatar crane
 description: Ilmatar is an overhead crane located at Aalto University.
 owner:
@@ -55,5 +55,5 @@ features:
   description: The website of Ilmatar OIE provides human readable information about
     the crane.
   address: https://aalto.fi/ilmatar
-edit: https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/crane-ilmatar/index.yaml
-baseurl: https://dtw.twinbase.org
+edit: https://github.com/Plan-T42/TwinBase_HoloCrane/edit/main/docs/25e83e9b-930c-4846-b976-566eb0919708/index.yaml
+baseurl: https://Plan-T42.github.io/TwinBase_HoloCrane
