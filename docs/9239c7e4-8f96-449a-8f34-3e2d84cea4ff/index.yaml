@@ -55,7 +55,8 @@ features:
   description: The website of Ilmatar OIE provides human readable information about
     the crane.
   address: https://aalto.fi/ilmatar
-edit: https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/crane-ilmatar/index.yaml
-baseurl: https://dtw.twinbase.org
 - name: HoloCrane MR app
   description: The mixed reality application to opearte the Ilmatar crane
+edit: https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/crane-ilmatar/index.yaml
+baseurl: https://dtw.twinbase.org
+
