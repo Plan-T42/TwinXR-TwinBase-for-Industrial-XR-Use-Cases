@@ -81,7 +81,62 @@
         },
         {
             "name": "HoloCrane MR app",
-            "description": "The mixed reality application to opearte the Ilmatar crane"
+            "description": "The mixed reality application to opearte the Ilmatar crane",
+            "parameters": {
+                "control paramters": null,
+                "design parameters": {
+                    "targetColor": "yellow",
+                    "targetShape": "sphere",
+                    "targetSize": 20,
+                    "targetOpacity": 70,
+                    "dashboardPosition": null,
+                    "dashboardScale": 1,
+                    "dashboardAngle": 0
+                },
+                "control parameters": {
+                    "markerLocation": [
+                        20,
+                        10,
+                        10
+                    ],
+                    "operationalArea": {
+                        "hoist": [
+                            0,
+                            300
+                        ],
+                        "trolley": [
+                            0,
+                            900
+                        ],
+                        "bridge": [
+                            0,
+                            2000
+                        ]
+                    },
+                    "targetNumLocation": {
+                        "1": {
+                            "hoist": 150,
+                            "trolley": 450,
+                            "bridge": 1000
+                        },
+                        "2": {
+                            "hoist": 50,
+                            "trolley": 450,
+                            "bridge": 1000
+                        },
+                        "3": {
+                            "hoist": 150,
+                            "trolley": 700,
+                            "bridge": 1000
+                        },
+                        "4": {
+                            "hoist": 150,
+                            "trolley": 450,
+                            "bridge": 2000
+                        }
+                    }
+                }
+            }
         }
     ],
     "edit": "https://github.com/Plan-T42/TwinBase_HoloCrane/edit/main/docs/9239c7e4-8f96-449a-8f34-3e2d84cea4ff/index.yaml",
