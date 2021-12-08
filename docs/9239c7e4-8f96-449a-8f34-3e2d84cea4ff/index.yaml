@@ -59,8 +59,8 @@ features:
   description: The mixed reality application to opearte the Ilmatar crane
   parameters:
     design parameters:
-      targetColor: "yellow"
-      targetShape: "sphere"
+      targetColor: yellow
+      targetShape: sphere
       targetSize: 20
       targetOpacity: 70
       dashboardDistance: 5
