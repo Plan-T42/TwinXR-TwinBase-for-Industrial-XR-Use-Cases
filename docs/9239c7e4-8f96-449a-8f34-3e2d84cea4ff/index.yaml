@@ -57,6 +57,9 @@ features:
   address: https://aalto.fi/ilmatar
 - name: HoloCrane MR app
   description: The mixed reality application to opearte the Ilmatar crane
+  contact: 
+    name: "Xinyi Tu (Joyce)"
+    website: "https://people.aalto.fi/xinyi.tu"
   hardware: Microsoft HoloLens device
   parameters:
     designParameters:
@@ -84,7 +87,6 @@ features:
         4Operation:
         - "Here is a quick guide on what you can do in this app."
         - "You can monitor crane's real-time status in the dashboard with: \n \n Crane status: load, sway control, position, movement; \n Crane Target: name and position of current selected target; \n Communication Staus: different modules and watchdog value."
-
         4Operation1:
         - 
         - "You can control the crane by interacting with target balls in two ways: \n Click any of the four fixed targets to select; or \n Tap the movable target and place it at a reachable spot. \n Once either way is done, the control will start and crane will move to selected target. \n You can reselct and change the target whenever you want."  
