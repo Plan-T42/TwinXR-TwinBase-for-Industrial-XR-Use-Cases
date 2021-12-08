@@ -83,13 +83,12 @@
             "name": "HoloCrane MR app",
             "description": "The mixed reality application to opearte the Ilmatar crane",
             "parameters": {
-                "control paramters": null,
                 "design parameters": {
                     "targetColor": "yellow",
                     "targetShape": "sphere",
                     "targetSize": 20,
                     "targetOpacity": 70,
-                    "dashboardPosition": null,
+                    "dashboardDistance": 5,
                     "dashboardScale": 1,
                     "dashboardAngle": 0
                 },
