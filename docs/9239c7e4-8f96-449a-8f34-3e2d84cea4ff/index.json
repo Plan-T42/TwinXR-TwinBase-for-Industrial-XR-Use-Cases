@@ -82,17 +82,59 @@
         {
             "name": "HoloCrane MR app",
             "description": "The mixed reality application to opearte the Ilmatar crane",
+            "contact": {
+                "name": "Xinyi Tu (Joyce)",
+                "website": "https://people.aalto.fi/xinyi.tu"
+            },
+            "hardware": "Microsoft HoloLens device",
             "parameters": {
-                "design parameters": {
+                "designParameters": {
                     "targetColor": "yellow",
                     "targetShape": "sphere",
                     "targetSize": 20,
                     "targetOpacity": 70,
                     "dashboardDistance": 5,
                     "dashboardScale": 1,
-                    "dashboardAngle": 0
+                    "dashboardAngle": 0,
+                    "interfaceAdjustmentDefault": [
+                        {
+                            "dashboard": true
+                        },
+                        {
+                            "targets": true
+                        },
+                        {
+                            "instructions": true
+                        }
+                    ],
+                    "instructions": {
+                        "1Start": [
+                            "Welcome to HoloCrane World!",
+                            "With this App, you can interact with the overhead crane at AIIC Lab!"
+                        ],
+                        "2Registration": [
+                            "Firstly, let's register the space.",
+                            "Now, turn around and find the image with Time to REcalibration text on the left upper of the coffee room door. \n Look closely at it until a green bounding box appears and aligns to the image and looks stable. If not aligned, try to walk around while looking at the image. \n You can always come back and register the space again later."
+                        ],
+                        "3Hologram": [
+                            "Now more elements should join your view.",
+                            "Turn around to face the crane. You can find five yellow balls in space: four Fixed Target and one Movable Target, with which you can move the crane. Above the desk on your right, you can find  toggles to modify your view. Once the guide is over, a dashboard with crane real-time status will appear and follow your gaze. \n Above the desk on your right, you can find  toggles to modify your view. \n Once the guide is over, a dashboard with crane real-time status will appear and follow your gaze."
+                        ],
+                        "4Operation": [
+                            "Here is a quick guide on what you can do in this app.",
+                            "You can monitor crane's real-time status in the dashboard with: \n \n Crane status: load, sway control, position, movement; \n Crane Target: name and position of current selected target; \n Communication Staus: different modules and watchdog value."
+                        ],
+                        "4Operation1": [
+                            "",
+                            "You can control the crane by interacting with target balls in two ways: \n Click any of the four fixed targets to select; or \n Tap the movable target and place it at a reachable spot. \n Once either way is done, the control will start and crane will move to selected target. \n You can reselct and change the target whenever you want."
+                        ],
+                        "4Operation2": [
+                            "",
+                            "You can always make your view inoformative/clean as you like, by enable/disable different objects' visibility. To do this, switch the corresponding toggles on/off. Whenever you want, you can enable/disable the dashboard and target balls, and come back to this guide later."
+                        ]
+                    }
                 },
-                "control parameters": {
+                "controlParameters": {
                     "markerLocation": [
                         20,
                         10,
