@@ -154,28 +154,11 @@
                             2000
                         ]
                     },
-                    "targetNumLocation": {
-                        "1": {
-                            "hoist": 150,
-                            "trolley": 450,
-                            "bridge": 1000
-                        },
-                        "2": {
-                            "hoist": 50,
-                            "trolley": 450,
-                            "bridge": 1000
-                        },
-                        "3": {
-                            "hoist": 150,
-                            "trolley": 700,
-                            "bridge": 1000
-                        },
-                        "4": {
-                            "hoist": 150,
-                            "trolley": 450,
-                            "bridge": 2000
-                        }
-                    }
+                    "targetLocation": [
+                        150,
+                        450,
+                        1000
+                    ]
                 }
             }
         }
