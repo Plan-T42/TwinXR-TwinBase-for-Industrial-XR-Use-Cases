@@ -136,9 +136,9 @@
                 },
                 "controlParameters": {
                     "markerLocation": [
-                        20,
-                        10,
-                        10
+                        0,
+                        0,
+                        0
                     ],
                     "operationalArea": {
                         "hoist": [
