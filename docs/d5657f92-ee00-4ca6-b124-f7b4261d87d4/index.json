@@ -1,0 +1,173 @@
+{
+    "version": "1.0",
+    "privacy": "public",
+    "dt-id": "https://dtid.org/d5657f92-ee00-4ca6-b124-f7b4261d87d4",
+    "hosting-iri": "https://Plan-T42.github.io/TwinBase_HoloCrane/d5657f92-ee00-4ca6-b124-f7b4261d87d4",
+    "name": "Demo crane 2",
+    "description": "Demo crane 2 is an overhead crane of the same type as Ilmatar but with different operational range and area. It shared the same applications (features), and is used to demostrate the scalabilityof the HoloCrane MR app.",
+    "owner": {
+        "name": "Aalto University",
+        "website": "https://www.aalto.fi"
+    },
+    "contact": {
+        "name": "Juuso Autiosalo",
+        "website": "https://people.aalto.fi/juuso.autiosalo"
+    },
+    "location": {
+        "streetAddress": "Otaniemi",
+        "gpsCoordinates": "60.1841\u00c2\u00b0 N, 24.8301\u00c2\u00b0 E"
+    },
+    "manufacturer": {
+        "name": "Konecranes",
+        "website": "https://www.konecranes.com"
+    },
+    "relations": [
+        {
+            "dt-id": "https://dtid.org/9239c7e4-8f96-449a-8f34-3e2d84cea4ff",
+            "name": "Ilmatar crane",
+            "relationType": "parent"
+        },
+        {
+            "dt-id": "http://dtid.org/3091b292-6104-4ef3-a30f-8275b46b5ab4",
+            "name": "AIIC laboratory hall",
+            "relationType": "parent"
+        },
+        {
+            "dt-id": "https://dtid.org/329cd047-09b1-419a-b389-b10615bb7211",
+            "relationType": "child"
+        },
+        {
+            "dt-id": "https://dtid.org/2358055c-4712-4b53-a0c6-fa8f2b90719f",
+            "relationType": "child"
+        },
+        {
+            "dt-id": "https://dtid.org/2bf2ee33-1297-4c30-afac-d80411f3f617",
+            "relationType": "child"
+        }
+    ],
+    "features": [
+        {
+            "name": "OSEMA",
+            "description": "OSEMA allows managing retrofitted sensors attached to the crane.",
+            "address": "https://example.sensor.fi/sensors/browse",
+            "apiAddress": "https://digi.kaksonen.fi/api/v1.0/",
+            "requirement": "User account is needed.",
+            "documentation": "https://github.com/AaltoIIC/OSEMA/blob/master/Documentation.md"
+        },
+        {
+            "name": "MindSphere",
+            "description": "MindSphere stores historical data of the crane",
+            "address": "https://crane-fleetmanager.eu1.mindsphere.io/",
+            "requirement": "User account for the aiicd1 tenant is required.",
+            "documentation": "http://mindsphere.io"
+        },
+        {
+            "name": "OPC UA",
+            "description": "OPC UA server allows real-time monitoring and control of the crane",
+            "requirement": "Access to Ilmatar local network, details available on request."
+        },
+        {
+            "name": "GraphQL Interface",
+            "description": "This interface allows accessing OPC UA using GraphQL",
+            "requirement": "Access to Ilmatar local network, details available on request.",
+            "address": "192.168.0.77",
+            "documentation": "https://github.com/AaltoIIC/OPC-UA-GraphQL-Wrapper"
+        },
+        {
+            "name": "Teamcenter",
+            "description": "Teamcenter stores PLM data of the crane. Includes 3D model of the crane without business criticial parts",
+            "requirement": "Access to Aalto Teamcenter.",
+            "documentation": "teamcenter.com"
+        },
+        {
+            "name": "Ilmatar OIE",
+            "description": "The website of Ilmatar OIE provides human readable information about the crane.",
+            "address": "https://aalto.fi/ilmatar"
+        },
+        {
+            "name": "HoloCrane MR app",
+            "description": "The mixed reality application to opearte the Ilmatar crane",
+            "contact": {
+                "name": "Xinyi Tu (Joyce)",
+                "website": "https://people.aalto.fi/xinyi.tu"
+            },
+            "hardware": "Microsoft HoloLens device",
+            "parameters": {
+                "designParameters": {
+                    "targetColor": "yellow",
+                    "targetShape": "sphere",
+                    "targetSize": 20,
+                    "targetOpacity": 70,
+                    "dashboardDistance": 5,
+                    "dashboardScale": 1,
+                    "dashboardAngle": 0,
+                    "interfaceAdjustmentDefault": [
+                        {
+                            "dashboard": true
+                        },
+                        {
+                            "targets": true
+                        },
+                        {
+                            "instructions": true
+                        }
+                    ],
+                    "instructions": {
+                        "1Start": [
+                            "Welcome to HoloCrane World!",
+                            "With this App, you can interact with the overhead crane at AIIC Lab!"
+                        ],
+                        "2Registration": [
+                            "Firstly, let's register the space.",
+                            "Now, turn around and find the image with Time to REcalibration text on the left upper of the coffee room door. \n Look closely at it until a green bounding box appears and aligns to the image and looks stable. If not aligned, try to walk around while looking at the image. \n You can always come back and register the space again later."
+                        ],
+                        "3Hologram": [
+                            "Now more elements should join your view.",
+                            "Turn around to face the crane. You can find five yellow balls in space: four Fixed Target and one Movable Target, with which you can move the crane. Above the desk on your right, you can find  toggles to modify your view. Once the guide is over, a dashboard with crane real-time status will appear and follow your gaze. \n Above the desk on your right, you can find  toggles to modify your view. \n Once the guide is over, a dashboard with crane real-time status will appear and follow your gaze."
+                        ],
+                        "4Operation": [
+                            "Here is a quick guide on what you can do in this app.",
+                            "You can monitor crane's real-time status in the dashboard with: \n \n Crane status: load, sway control, position, movement; \n Crane Target: name and position of current selected target; \n Communication Staus: different modules and watchdog value."
+                        ],
+                        "4Operation1": [
+                            "",
+                            "You can control the crane by interacting with target balls in two ways: \n Click any of the four fixed targets to select; or \n Tap the movable target and place it at a reachable spot. \n Once either way is done, the control will start and crane will move to selected target. \n You can reselct and change the target whenever you want."
+                        ],
+                        "4Operation2": [
+                            "",
+                            "You can always make your view inoformative/clean as you like, by enable/disable different objects' visibility. To do this, switch the corresponding toggles on/off. Whenever you want, you can enable/disable the dashboard and target balls, and come back to this guide later."
+                        ]
+                    }
+                },
+                "controlParameters": {
+                    "markerLocation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "operationalArea": {
+                        "hoist": [
+                            0,
+                            2980
+                        ],
+                        "trolley": [
+                            0,
+                            9300
+                        ],
+                        "bridge": [
+                            0,
+                            10450
+                        ]
+                    },
+                    "targetLocation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        }
+    ],
+    "edit": "https://github.com/Plan-T42/TwinBase_HoloCrane/edit/main/docs/d5657f92-ee00-4ca6-b124-f7b4261d87d4/index.yaml",
+    "baseurl": "https://Plan-T42.github.io/TwinBase_HoloCrane"
+}
