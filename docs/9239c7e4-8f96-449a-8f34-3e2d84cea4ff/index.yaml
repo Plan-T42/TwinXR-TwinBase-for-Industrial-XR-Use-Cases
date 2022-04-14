@@ -115,9 +115,9 @@ features:
           balls, and come back to this guide later.
     controlParameters:
       markerLocation:
-      - 20
-      - 10
-      - 10
+      - 0
+      - 0
+      - 0
       operationalArea:
         hoist:
         - 0
