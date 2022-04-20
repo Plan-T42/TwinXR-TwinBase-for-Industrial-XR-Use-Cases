@@ -143,21 +143,21 @@
                     "safetyZone": {
                         "bridge": [
                             0,
-                            300
+                            10450
                         ],
                         "trolley": [
                             0,
-                            900
+                            9300
                         ],
                         "hoist": [
                             0,
-                            2000
+                            2980
                         ]
                     },
                     "targetLocation": {
-                        "bridge": 0,
-                        "trolley": 0,
-                        "hoist": 0
+                        "bridge": 8000,
+                        "trolley": 1000,
+                        "hoist": 2000
                     }
                 }
             }
