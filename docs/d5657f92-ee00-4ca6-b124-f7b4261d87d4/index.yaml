@@ -4,8 +4,7 @@ dt-id: https://dtid.org/d5657f92-ee00-4ca6-b124-f7b4261d87d4
 hosting-iri: https://Plan-T42.github.io/TwinBase_HoloCrane/d5657f92-ee00-4ca6-b124-f7b4261d87d4
 name: Demo crane 2
 description: Demo crane 2 is an overhead crane of the same type as Ilmatar but with
-  different operational range and area. It shared the same applications (features),
-  and is used to demostrate the scalabilityof the HoloCrane MR app.
+  different safety area and target location. It is used to demostrate the scalabilityof the HoloCrane MR app.
 owner:
   name: Aalto University
   website: https://www.aalto.fi
