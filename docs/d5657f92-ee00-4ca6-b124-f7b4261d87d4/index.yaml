@@ -126,16 +126,16 @@ features:
       safetyZone:
         bridge:
         - 0
-        - 300
+        - 5000
         trolley:
         - 0
-        - 900
+        - 5000
         hoist:
         - 0
-        - 2000
+        - 1500
       targetLocation:
-        bridge: 200
-        trolley: 200
-        hoist: 200
+        bridge: 1000
+        trolley: 1000
+        hoist: 1000
 edit: https://github.com/Plan-T42/TwinBase_HoloCrane/edit/main/docs/d5657f92-ee00-4ca6-b124-f7b4261d87d4/index.yaml
 baseurl: https://Plan-T42.github.io/TwinBase_HoloCrane
