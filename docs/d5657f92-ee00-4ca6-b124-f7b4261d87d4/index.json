@@ -140,30 +140,30 @@
                     }
                 },
                 "controlParameters": {
-                    "markerLocation": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "operationalArea": {
-                        "hoist": [
+                    "markerLocation": {
+                        "bridge": 0,
+                        "trolley": 0,
+                        "hoist": 0
+                    },
+                    "safetyZone": {
+                        "bridge": [
                             0,
-                            2980
+                            300
                         ],
                         "trolley": [
                             0,
-                            9300
+                            900
                         ],
-                        "bridge": [
+                        "hoist": [
                             0,
-                            10450
+                            2000
                         ]
                     },
-                    "targetLocation": [
-                        0,
-                        0,
-                        0
-                    ]
+                    "targetLocation": {
+                        "bridge": 200,
+                        "trolley": 200,
+                        "hoist": 200
+                    }
                 }
             }
         }
