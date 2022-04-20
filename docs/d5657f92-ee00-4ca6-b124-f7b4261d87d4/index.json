@@ -148,21 +148,21 @@
                     "safetyZone": {
                         "bridge": [
                             0,
-                            300
+                            5000
                         ],
                         "trolley": [
                             0,
-                            900
+                            5000
                         ],
                         "hoist": [
                             0,
-                            2000
+                            1500
                         ]
                     },
                     "targetLocation": {
-                        "bridge": 200,
-                        "trolley": 200,
-                        "hoist": 200
+                        "bridge": 1000,
+                        "trolley": 1000,
+                        "hoist": 1000
                     }
                 }
             }
