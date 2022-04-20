@@ -120,22 +120,22 @@ features:
           balls, and come back to this guide later.
     controlParameters:
       markerLocation:
-      - 0
-      - 0
-      - 0
-      operationalArea:
-        hoist:
-        - 0
-        - 2980
-        trolley:
-        - 0
-        - 9300
+        bridge: 0
+        trolley: 0
+        hoist: 0
+      safetyZone:
         bridge:
         - 0
-        - 10450
+        - 300
+        trolley:
+        - 0
+        - 900
+        hoist:
+        - 0
+        - 2000
       targetLocation:
-      - 0
-      - 0
-      - 0
+        bridge: 200
+        trolley: 200
+        hoist: 200
 edit: https://github.com/Plan-T42/TwinBase_HoloCrane/edit/main/docs/d5657f92-ee00-4ca6-b124-f7b4261d87d4/index.yaml
 baseurl: https://Plan-T42.github.io/TwinBase_HoloCrane
