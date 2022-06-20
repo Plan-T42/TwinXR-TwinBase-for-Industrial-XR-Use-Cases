@@ -1,4 +1,15 @@
-# Twinbase
+#TwinXR: Twinbase for HoloCrane
+
+TwinXR is a method we developed to explore the synergies between Digital Twins (DT) and Extened Reality (XR), and their interoperability and interchangeabilty, by introducing an ontology-based approach in industrial Extended Reality (XR) applications. (Related publication is coming out, and we will add the link here.) 
+
+This project creates a customized Twinbase based on the template from the [twinbase/twinbase](https://github.com/twinbase/twinbase) page. This Twinbase includes two twins (Digital Twin documents) of two overhead cranes: one for the "Imatar" crane at Aalto Industrial Internet Campus (AIIC), and the other for a demo crane. 
+
+This Twinbase and the DT documents defined here are assessed and utilized by a Unity-based HoloLens mixed reality application foe operating overhead cranes in the ["TwinXR: HoloCrane Unity Demo"](https://github.com/Plan-T42/TwinXR-HoloCrane-Unity-Demo) project. Together, they demostrate the use of the "TwinXR" method in industrial applications.
+
+The following content is from the [twinbase/twinbase](https://github.com/twinbase/twinbase) page. 
+
+
+## Twinbase
 
 Twinbase is an open source platform for managing and distributing [digital twin documents](https://doi.org/10.1109/ACCESS.2020.3045856).
 It is built on git and can be hosted on free-of-charge GitHub services.
