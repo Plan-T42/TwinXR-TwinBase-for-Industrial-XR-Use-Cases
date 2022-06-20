@@ -1,7 +1,7 @@
 version: '1.0'
 privacy: public
 dt-id: https://dtid.org/d5657f92-ee00-4ca6-b124-f7b4261d87d4
-hosting-iri: https://Plan-T42.github.io/TwinBase_HoloCrane/d5657f92-ee00-4ca6-b124-f7b4261d87d4
+hosting-iri: https://Plan-T42.github.io/TwinXR-TwinBase-for-HoloCrane/d5657f92-ee00-4ca6-b124-f7b4261d87d4
 name: Demo crane 2
 description: Demo crane 2 is an overhead crane of the same type as Ilmatar but with
   different safety area and target location. It is used to demostrate the scalabilityof
@@ -137,5 +137,5 @@ features:
         bridge: 1000
         trolley: 1000
         hoist: 1000
-edit: https://github.com/Plan-T42/TwinBase_HoloCrane/edit/main/docs/d5657f92-ee00-4ca6-b124-f7b4261d87d4/index.yaml
-baseurl: https://Plan-T42.github.io/TwinBase_HoloCrane
+edit: https://github.com/Plan-T42/TwinXR-TwinBase-for-HoloCrane/edit/main/docs/d5657f92-ee00-4ca6-b124-f7b4261d87d4/index.yaml
+baseurl: https://Plan-T42.github.io/TwinXR-TwinBase-for-HoloCrane
