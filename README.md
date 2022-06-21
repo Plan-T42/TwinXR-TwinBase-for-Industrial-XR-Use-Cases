@@ -4,7 +4,7 @@ TwinXR is a method we developed to explore the synergies between Digital Twins (
 
 This project creates a customized Twinbase based on the template from the [twinbase/twinbase](https://github.com/twinbase/twinbase) page. This Twinbase includes two twins (Digital Twin documents) of two overhead cranes: one for the ["Imatar"](https://github.com/Plan-T42/TwinXR-TwinBase-for-HoloCrane/tree/main/docs/9239c7e4-8f96-449a-8f34-3e2d84cea4ff) crane at Aalto Industrial Internet Campus ([AIIC](https://www.aalto.fi/en/industrial-internet-campus/ilmatar-open-innovation-environment)), and the other for a [demo crane](https://github.com/Plan-T42/TwinXR-TwinBase-for-HoloCrane/tree/main/docs/d5657f92-ee00-4ca6-b124-f7b4261d87d4). 
 
-This Twinbase and the DT documents defined here are assessed and utilized by a Unity-based HoloLens mixed reality application foe operating overhead cranes in the ["TwinXR: HoloCrane Unity Demo"](https://github.com/Plan-T42/TwinXR-HoloCrane-Unity-Demo) project. Together, they demostrate the use of the "TwinXR" method in industrial applications.
+This Twinbase and the DT documents defined here are assessed and utilized by a Unity-based HoloLens mixed reality application for operating overhead cranes in the ["TwinXR: HoloCrane Unity Demo"](https://github.com/Plan-T42/TwinXR-HoloCrane-Unity-Demo) project. Together, they demostrate the use of the "TwinXR" method in industrial applications.
 
 The following content is from the [twinbase/twinbase](https://github.com/twinbase/twinbase) page. 
 
