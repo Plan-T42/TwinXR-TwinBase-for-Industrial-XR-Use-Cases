@@ -4,8 +4,8 @@ dt-id: https://dtid.org/d5657f92-ee00-4ca6-b124-f7b4261d87d4
 hosting-iri: https://Plan-T42.github.io/TwinXR-TwinBase-for-HoloCrane/d5657f92-ee00-4ca6-b124-f7b4261d87d4
 name: Demo crane 2
 description: Demo crane 2 is an overhead crane of the same type as Ilmatar but with
-  different safety area and target location. It is used to demostrate the scalability of the MR application enabled by the 
-  the TwinXR method. 
+  different safety area and target location. It is used to demostrate the scalability
+  of the MR application enabled by the the TwinXR method.
 owner:
   name: Aalto University
   website: https://www.aalto.fi
