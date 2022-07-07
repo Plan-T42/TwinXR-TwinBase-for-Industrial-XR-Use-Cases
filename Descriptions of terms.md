@@ -1,8 +1,8 @@
 # Descriptions of terms
 
-based on the corresponding file in [AIIC/dt-document](https://github.com/AaltoIIC/dt-document/blob/master/descriptions-of-terms.md) project 
+Based on the corresponding file in [AIIC/dt-document](https://github.com/AaltoIIC/dt-document/blob/master/descriptions-of-terms.md) project 
 
-modified specifically for the HoloLens mixed reality application for crane operation.
+Modified specifically for the HoloLens mixed reality application for crane operation.
 
 ## Main terms
 
