@@ -54,17 +54,21 @@ The interal parameters of the mixed reality interface for crane operation, i.e t
 | design parameter | targetColor | The color of the target holograms, by default yellow  | optional | string |
 | design parameter | targetShape | The shape of the target holograms, by default sphere | optional | string |
 | design parameter | targetSize | The size of the target holograms in cm, by default 20cm diameters (sphere) | optional | float |
-| design parameter | targetOpacity | The opacity of the target holograms in %, by default 70? | optional | float |
-| design parameter | operationalAreaDisplayStyle | The style of operational area holograms, either "fill" or "outline", by default "outline"? | optional | string |
-| design parameter | operationalAreaBorderThickness | The thickness of the borders of operational area holograms in cm, by default 4? | optional | float |
+| design parameter | targetOpacity | The opacity of the target holograms in %, by default 70 | optional | float |
 | design parameter | dashboardPosition | The position of the dashboard center with regard to the user (HoloLens) | optional | array of three float |
 | design parameter | dashboardScale | The scale of the dashboard, by default 1 | optional | float |
 | design parameter | dashboardAngle| The angle between dashboard and the plane that is vertical to user's sight line, by default 0, i.e. vertical dashboard | optional | float |
-| control parameter | markerLocation | The location of the registration marker in crane's hoist, trolley and bridge dimensions (cm) | optional | array of three floats |
-| control parameter | operationalAreaHoist | The range of opeational area in crane's hoist dimension (cm) | optional | array of two floats |
-| control parameter | operationalAreaTrolley | The range of opeational area in crane's trolley dimension (cm) | optional | array of two floats |
-| control parameter | operationalAreaBridge | The range of opeational area in crane's bridge dimension (cm) | optional | array of two floats |
-| control parameter | targetNum | The number of the fixed target holograms, by default 4 with each's location pre-defined | optional | int |
-| control parameter | targetNumLocationHoist | The location of a target hologram with its number in crane's hoist dimension (cm), should be within the operational area | optional | dictionary of int:float |
-| control parameter | targetNumLocationTrolley | The location of a target hologram with its number in crane's trolley dimension (cm), should be within the operational area | optional | dictionary of int:float |
-| control parameter | targetNumLocationBridge | The location of a target hologram  with its number in crane's bridge dimension (cm), should be within the operational area | optional | dictionary of int:float |
+| design parameter | visibilityUI - dashboard | whether dashboard UI is visible, by default true | optional | boolean |
+| design parameter | visibilityUI - targets | whether targets UI is visible, by default true | optional | boolean |
+| design parameter | visibilityUI - instructions | whether instructions UI is visible, by default true | optional | boolean |
+| design parameter | instructions | instructions about the XR applcation | optional | string |
+| design parameter | safetyZoneDisplayStyle | The hologram style of operational safe zone, either "fill" or "outline", by default "outline" | optional | string |
+| control parameter | markerLocationBridge | The location of the registration marker in crane's bridge dimension (cm) | optional | float |
+| control parameter | markerLocationTrolley | The location of the registration marker in crane's trolley dimension (cm) | optional | float |
+| control parameter | markerLocationHoist | The location of the registration marker in crane's hoist dimension (cm) | optional | float |
+| control parameter | safetyZoneHoist | The range of operationally safe zone in crane's hoist dimension (cm) | optional | array of two floats |
+| control parameter | safetyZoneTrolley | The range of operationally safe zone in crane's trolley dimension (cm) | optional | array of two floats |
+| control parameter | safetyZoneBridge | The range of operationally safe zone in crane's bridge dimension (cm) | optional | array of two floats |
+| control parameter | targetLocationHoist | The location of a target hologram in crane's hoist dimension (cm), should be within the operational area | optional | float |
+| control parameter | targetLocationTrolley | The location of a target in crane's trolley dimension (cm), should be within the operational area | optional | float |
+| control parameter | targetLocationBridge | The location of a target in crane's bridge dimension (cm), should be within the operational area | optional | float |
