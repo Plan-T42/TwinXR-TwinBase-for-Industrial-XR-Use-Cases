@@ -93,10 +93,10 @@
                     "targetShape": "sphere",
                     "targetSize": 20,
                     "targetOpacity": 70,
-                    "dashboardDistance": 5,
+                    "dashboardPosition": 5,
                     "dashboardScale": 1,
                     "dashboardAngle": 0,
-                    "interfaceAdjustmentDefault": [
+                    "visibilityUI": [
                         {
                             "dashboard": true
                         },
@@ -132,7 +132,8 @@
                             "",
                             "You can always make your view inoformative/clean as you like, by enable/disable different objects' visibility. To do this, switch the corresponding toggles on/off. Whenever you want, you can enable/disable the dashboard and target balls, and come back to this guide later."
                         ]
-                    }
+                    },
+                    "safetyZoneDisplayStyle": "outline"
                 },
                 "controlParameters": {
                     "markerLocation": {
