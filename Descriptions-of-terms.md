@@ -69,6 +69,6 @@ The interal parameters of the mixed reality interface for crane operation, i.e t
 | control parameter | safetyZoneHoist | The range of operationally safe zone in crane's hoist dimension (cm) | optional | array of two floats |
 | control parameter | safetyZoneTrolley | The range of operationally safe zone in crane's trolley dimension (cm) | optional | array of two floats |
 | control parameter | safetyZoneBridge | The range of operationally safe zone in crane's bridge dimension (cm) | optional | array of two floats |
-| control parameter | targetLocationHoist | The location of a target hologram in crane's hoist dimension (cm), should be within the operational area | optional | float |
+| control parameter | targetLocationHoist | The location of a target in crane's hoist dimension (cm), should be within the operational area | optional | float |
 | control parameter | targetLocationTrolley | The location of a target in crane's trolley dimension (cm), should be within the operational area | optional | float |
 | control parameter | targetLocationBridge | The location of a target in crane's bridge dimension (cm), should be within the operational area | optional | float |
