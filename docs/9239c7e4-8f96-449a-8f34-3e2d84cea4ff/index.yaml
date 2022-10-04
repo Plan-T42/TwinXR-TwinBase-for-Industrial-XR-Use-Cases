@@ -1,7 +1,7 @@
 version: '1.0'
 privacy: public
 dt-id: https://dtid.org/9239c7e4-8f96-449a-8f34-3e2d84cea4ff
-hosting-iri: https://Plan-T42.github.io/TwinXR-TwinBase-for-HoloCrane/9239c7e4-8f96-449a-8f34-3e2d84cea4ff
+hosting-iri: https://Plan-T42.github.io/TwinXR-TwinBase-for-Industrail-XR-Use-Cases/9239c7e4-8f96-449a-8f34-3e2d84cea4ff
 name: Ilmatar crane
 description: Ilmatar is an overhead crane located at Aalto University.
 owner:
@@ -133,5 +133,5 @@ features:
         bridge: 8000
         trolley: 1000
         hoist: 2000
-edit: https://github.com/Plan-T42/TwinXR-TwinBase-for-HoloCrane/edit/main/docs/9239c7e4-8f96-449a-8f34-3e2d84cea4ff/index.yaml
-baseurl: https://Plan-T42.github.io/TwinXR-TwinBase-for-HoloCrane
+edit: https://github.com/Plan-T42/TwinXR-TwinBase-for-Industrail-XR-Use-Cases/edit/main/docs/9239c7e4-8f96-449a-8f34-3e2d84cea4ff/index.yaml
+baseurl: https://Plan-T42.github.io/TwinXR-TwinBase-for-Industrail-XR-Use-Cases
