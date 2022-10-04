@@ -1,4 +1,4 @@
-# Descriptions of terms
+# Descriptions of terms - Crane
 
 Based on the corresponding file in [AIIC/dt-document](https://github.com/AaltoIIC/dt-document/blob/master/descriptions-of-terms.md) project 
 
