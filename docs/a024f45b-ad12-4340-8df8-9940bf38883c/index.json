@@ -43,6 +43,9 @@
                             "dashboard": true
                         },
                         {
+                            "targets": true
+                        },
+                        {
                             "instructions": true
                         }
                     ],
@@ -51,20 +54,20 @@
                 },
                 "controlParameters": {
                     "markerLocation": {
-                        "X": 0,
-                        "Y": 0,
-                        "Z": 0
+                        "bridge": 0,
+                        "trolley": 0,
+                        "hoist": 0
                     },
                     "safetyZone": {
-                        "X": [
+                        "bridge": [
                             0,
                             10450
                         ],
-                        "Y": [
+                        "trolley": [
                             0,
                             9300
                         ],
-                        "Z": [
+                        "hoist": [
                             0,
                             2980
                         ]
