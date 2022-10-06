@@ -43,9 +43,9 @@ Modified specifically for the XR application.
 ** any key-value pair is allowed
 
 
-## Parameters for HoloCrane application 
+## Parameters for HoloRobot application 
 
-The interal parameters of the mixed reality interface for crane operation, i.e the HoloCrane application, are specified as follows:
+The interal parameters of the mixed reality interface for control robot arm, i.e the HoloRobot application, are specified as follows:
 
 |  Parameter Types  |  subterm  | description | Assigment | Type |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -56,9 +56,9 @@ The interal parameters of the mixed reality interface for crane operation, i.e t
 | design parameter | visibilityUI - instructions | whether instructions UI is visible, by default true | optional | boolean |
 | design parameter | instructions | instructions about the XR applcation | optional | string |
 | design parameter | safetyZoneDisplayStyle | The hologram style of operational safe zone, either "fill" or "outline", by default "outline" | optional | string |
-| control parameter | markerLocationBridge | The location of the registration marker in crane's bridge dimension (cm) | optional | float |
-| control parameter | markerLocationTrolley | The location of the registration marker in crane's trolley dimension (cm) | optional | float |
-| control parameter | markerLocationHoist | The location of the registration marker in crane's hoist dimension (cm) | optional | float |
+| control parameter | markerLocationX | The location of the registration marker in the pre-defined X dimension (cm) | optional | float |
+| control parameter | markerLocationY | The location of the registration marker in the pre-defined Y dimension (cm) | optional | float |
+| control parameter | markerLocationZ | The location of the registration marker in the pre-defined Z dimension (cm) | optional | float |
 | control parameter | safetyZoneX | The range of operationally safe zone in the pre-defined X dimension (cm) | optional | array of two floats |
 | control parameter | safetyZoneY | The range of operationally safe zone in the pre-defined Y dimension (cm) | optional | array of two floats |
 | control parameter | safetyZoneZ | The range of operationally safe zone in the pre-defined Z dimension (cm) | optional | array of two floats |
