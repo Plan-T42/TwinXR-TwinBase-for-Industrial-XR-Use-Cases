@@ -3,7 +3,8 @@ privacy: public
 dt-id: https://dtid.org/a024f45b-ad12-4340-8df8-9940bf38883c
 hosting-iri: https://Plan-T42.github.io/TwinXR-TwinBase-for-Industrail-XR-Use-Cases/a024f45b-ad12-4340-8df8-9940bf38883c
 name: Robot arm UR5e
-description: UR5e is a Universal Robots e-Series robot arm, equipped with six joints and a wide scope of flexibility.
+description: UR5e is a Universal Robots e-Series robot arm, equipped with six joints
+  and a wide scope of flexibility.
 owner:
   name: Aalto University
   website: https://www.aalto.fi
@@ -33,7 +34,8 @@ features:
       - dashboard: true
       - targets: true
       - instructions: true
-      instructions: Welcome to HoloRobot application! Here you could monitor the robot arm status, control the movement of each joint, and view its DT infomation.
+      instructions: Welcome to HoloRobot application! Here you could monitor the robot
+        arm status, control the movement of each joint, and view its DT infomation.
       safetyZoneDisplayStyle: outline
     controlParameters:
       markerLocation:
