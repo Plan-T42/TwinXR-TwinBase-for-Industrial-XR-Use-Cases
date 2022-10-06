@@ -1,0 +1,117 @@
+{
+    "version": "1.0",
+    "privacy": "public",
+    "dt-id": "https://dtid.org/a024f45b-ad12-4340-8df8-9940bf38883c",
+    "hosting-iri": "https://Plan-T42.github.io/TwinXR-TwinBase-for-Industrail-XR-Use-Cases/a024f45b-ad12-4340-8df8-9940bf38883c",
+    "name": "Robot arm UR5e",
+    "description": "UR5e is a Universal Robots e-Series robot arm, equipped with six joints and a wide scope of flexibility.",
+    "owner": {
+        "name": "Aalto University",
+        "website": "https://www.aalto.fi"
+    },
+    "contact": {
+        "name": "Xinyi Tu",
+        "website": "https://people.aalto.fi/xinyi.tu"
+    },
+    "manufacturer": {
+        "name": "Universal Robots",
+        "website": "http://www.universal-robots.com/"
+    },
+    "relations": [
+        {
+            "dt-id": "http://dtid.org/3091b292-6104-4ef3-a30f-8275b46b5ab4",
+            "name": "AIIC laboratory hall",
+            "relationType": "parent"
+        }
+    ],
+    "features": [
+        {
+            "name": "HoloRobot MR app",
+            "description": "The mixed reality application to control the Robot arm UR5e",
+            "contact": {
+                "name": "Xinyi Tu (Joyce)",
+                "website": "https://people.aalto.fi/xinyi.tu"
+            },
+            "hardware": "Microsoft HoloLens device",
+            "parameters": {
+                "designParameters": {
+                    "dashboardPosition": 5,
+                    "dashboardScale": 1,
+                    "dashboardAngle": 0,
+                    "visibilityUI": [
+                        {
+                            "dashboard": true
+                        },
+                        {
+                            "targets": true
+                        },
+                        {
+                            "instructions": true
+                        }
+                    ],
+                    "instructions": "Welcome to HoloRobot application! Here you could monitor the robot arm status, control the movement of each joint, and view its DT infomation.",
+                    "safetyZoneDisplayStyle": "outline"
+                },
+                "controlParameters": {
+                    "markerLocation": {
+                        "bridge": 0,
+                        "trolley": 0,
+                        "hoist": 0
+                    },
+                    "safetyZone": {
+                        "bridge": [
+                            0,
+                            10450
+                        ],
+                        "trolley": [
+                            0,
+                            9300
+                        ],
+                        "hoist": [
+                            0,
+                            2980
+                        ]
+                    },
+                    "offsetOrientationJoint1": 0,
+                    "offsetOrientationJoint2": 0,
+                    "offsetOrientationJoint3": 0,
+                    "offsetOrientationJoint4": 0,
+                    "offsetOrientationJoint5": 0,
+                    "offsetOrientationJoint6": 0,
+                    "defaultSpeedJoint1": 30,
+                    "defaultSpeedJoint2": 30,
+                    "defaultSpeedJoint3": 30,
+                    "defaultSpeedJoint4": 30,
+                    "defaultSpeedJoint5": 30,
+                    "defaultSpeedJoint6": 30,
+                    "orinetatinRangeJoint1": [
+                        0,
+                        360
+                    ],
+                    "orinetatinRangeJoint2": [
+                        0,
+                        360
+                    ],
+                    "orinetatinRangeJoint3": [
+                        0,
+                        360
+                    ],
+                    "orinetatinRangeJoint4": [
+                        0,
+                        360
+                    ],
+                    "orinetatinRangeJoint5": [
+                        0,
+                        360
+                    ],
+                    "orinetatinRangeJoint6": [
+                        0,
+                        360
+                    ]
+                }
+            }
+        }
+    ],
+    "edit": "https://github.com/Plan-T42/TwinXR-TwinBase-for-Industrail-XR-Use-Cases/edit/main/docs/a024f45b-ad12-4340-8df8-9940bf38883c/index.yaml",
+    "baseurl": "https://Plan-T42.github.io/TwinXR-TwinBase-for-Industrail-XR-Use-Cases"
+}
