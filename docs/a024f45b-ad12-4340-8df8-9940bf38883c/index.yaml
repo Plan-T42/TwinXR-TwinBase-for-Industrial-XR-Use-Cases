@@ -57,29 +57,41 @@ features:
       offsetOrientationJoint4: 0
       offsetOrientationJoint5: 0
       offsetOrientationJoint6: 0
-      defaultSpeedJoint1: 30
-      defaultSpeedJoint2: 30
-      defaultSpeedJoint3: 30
-      defaultSpeedJoint4: 30
-      defaultSpeedJoint5: 30
-      defaultSpeedJoint6: 30
+      speedRangeJoint1:
+      - -180
+      - 180
+      speedRangeJoint2:
+      - -180
+      - 180
+      speedRangeJoint3:
+      - -180
+      - 180
+      speedRangeJoint4:
+      - -180
+      - 180     
+      speedRangeJoint5:
+      - -180
+      - 180
+      speedRangeJoint6:
+      - -180
+      - 180        
       orinetatinRangeJoint1:
-      - 0
+      - -360
       - 360
       orinetatinRangeJoint2:
-      - 0
+      - -360
       - 360
       orinetatinRangeJoint3:
-      - 0
+      - -360
       - 360
       orinetatinRangeJoint4:
-      - 0
+      - -360
       - 360
       orinetatinRangeJoint5:
-      - 0
+      - -360
       - 360
       orinetatinRangeJoint6:
-      - 0
+      - -360
       - 360
 edit: https://github.com/Plan-T42/TwinXR-TwinBase-for-Industrail-XR-Use-Cases/edit/main/docs/a024f45b-ad12-4340-8df8-9940bf38883c/index.yaml
 baseurl: https://Plan-T42.github.io/TwinXR-TwinBase-for-Industrail-XR-Use-Cases
