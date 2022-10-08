@@ -68,13 +68,13 @@ features:
       - 180
       speedRangeJoint4:
       - -180
-      - 180     
+      - 180
       speedRangeJoint5:
       - -180
       - 180
       speedRangeJoint6:
       - -180
-      - 180        
+      - 180
       orinetatinRangeJoint1:
       - -360
       - 360
